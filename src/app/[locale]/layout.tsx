@@ -5,6 +5,8 @@ import "./globals.css";
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
+import Header from "@/components/Header";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,12 +35,22 @@ export default async function LocaleLayout({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+  
  
   return (
     <html lang={locale}>
-      <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+      <body className="min-h-screen flex flex-col">
+        <NextIntlClientProvider>
+          <Header />
+
+          <main className="w-full flex-1 mt-20 bg-white">
+            {children}
+          </main>
+
+          <ScrollToTop />
+        </NextIntlClientProvider>
       </body>
+      
     </html>
   );
 }

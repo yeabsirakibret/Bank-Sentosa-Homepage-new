@@ -1,6 +1,8 @@
 {
   "Global": {
     "title": "Halo dunia!",
-    "about": "Pergi ke halaman tentang"
+    "about": "Pergi ke halaman tentang",
+    "label": "Ubah bahasa",
+    "locale": "{locale, select, de {🇩🇪 Jerman} en {🇺🇸 Inggris} other {Tidak diketahui}}"
   }
 }

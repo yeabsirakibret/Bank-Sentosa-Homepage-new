@@ -1,6 +1,8 @@
 {
   "Global": {
     "title": "Hello world!",
-    "about": "Go to the about page"
+    "about": "About",
+    "label": "Change language",
+    "locale": "{locale, select, id {ID Indonesian} en {🇺🇸 English} other {Unknown}}"
   }
 }
