@@ -3,20 +3,23 @@ import {routing} from '@/i18n/routing';
 import LocaleSwitcherSelect from './LocaleSwitcherSelect';
 
 const localeMeta = {
-  en: { label: 'US', flag: '🇺🇸' },
-  id: { label: 'ID', flag: '🇮🇩' }
+  en: { label: 'US', flag: '/flags/us.svg' },
+  id: { label: 'ID', flag: '/flags/id.svg' }
 };
 
 export default function LocaleSwitcher() {
   const locale = useLocale();
 
   return (
-    <LocaleSwitcherSelect defaultValue={locale}>
+    <LocaleSwitcherSelect 
+      defaultValue={locale} 
+      options={Object.entries(localeMeta).map(([locale, { label, flag }]) => ({ value: locale, label, icon: flag }))}
+    >
       {routing.locales.map((cur) => {
         const meta = localeMeta[cur as keyof typeof localeMeta];
         return (
           <option key={cur} value={cur}>
-            {meta.flag} {meta.label}
+            {meta.label}
           </option>
         );
       })}
