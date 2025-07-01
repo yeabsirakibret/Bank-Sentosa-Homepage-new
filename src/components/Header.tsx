@@ -66,7 +66,7 @@ export default function Header() {
       href: "/report",
       dropdown: [
         {
-          label: t("report"),
+          label: "",
           href: "/report",
           children: [
             {
@@ -126,7 +126,7 @@ export default function Header() {
         {items.map((item) => (
           <div key={item.href} className="min-w-[160px]">
             {/* Parent label with same vertical spacing as first child */}
-            <div className="font-bold text-gray-900 px-2 py-1">
+            <div className=" text-gray-900 px-2 py-1">
               {item.label}
             </div>
 
@@ -136,7 +136,7 @@ export default function Header() {
                 <li key={child.href}>
                   <Link
                     href={child.href}
-                    className="text-gray-700 hover:text-blue-600 px-2 py-1 rounded block transition-colors"
+                    className="text-gray-700 font-bold hover:text-blue-600 px-2 py-1 rounded block transition-colors"
                   >
                     {child.label}
                   </Link>
@@ -173,18 +173,20 @@ export default function Header() {
   ) {
     return items.map((item) => (
       <div key={item.href} className={level > 0 ? "ml-6" : ""}>
-        <Link
-          href={item.href}
-          className={clsx(
-            level === 0
-              ? "block px-4 py-3 text-base font-medium rounded-lg transition-colors"
-              : "block px-4 py-2 text-sm rounded-lg transition-colors",
-            "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
-          )}
-          onClick={closeMenu}
-        >
-          {item.label}
-        </Link>
+        {item.label.length > 0 && (
+          <Link
+            href={item.href}
+            className={clsx(
+              level === 0
+                ? "block px-4 py-3 text-base font-medium rounded-lg transition-colors"
+                : "block px-4 py-2 text-sm rounded-lg transition-colors",
+              "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+            )}
+            onClick={closeMenu}
+          >
+            {item.label}
+          </Link>
+        )}
         {item.children && (
           <div className="ml-2 border-l border-gray-200 pl-2">
             {renderMobileDropdown(item.children, closeMenu, level + 1)}
