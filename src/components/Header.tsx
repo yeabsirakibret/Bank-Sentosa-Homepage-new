@@ -97,39 +97,49 @@ export default function Header() {
     }
   };
 
-  function renderDropdownItems(items: any[], level = 0) {
-    return items.map((item, index) => (
-      <div key={item.href} className={level === 0 ? "col-span-1" : "ml-4"}>
-        <Link
-          href={item.href}
-          className={clsx(
-            "group block p-3 rounded-lg transition-all duration-200 ease-in-out hover:bg-gray-50 hover:shadow-md transform hover:-translate-y-1",
-            "animate-fadeInUp"
-          )}
-          style={{
-            animationDelay: `${index * 50}ms`,
-            animationFillMode: "both",
-          }}
-        >
-          <div className="flex items-center space-x-3">
-            <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-200 transition-colors">
-              <ChevronRight className="w-4 h-4 text-blue-600" />
+  function renderDropdownItems(items: any[]) {
+    return (
+      <div className="flex flex-row gap-8 w-full items-start">
+        {items.map((item) => (
+          <div key={item.href} className="min-w-[160px]">
+            {/* Parent label with same vertical spacing as first child */}
+            <div className="font-bold text-gray-900 px-2 py-1">
+              {item.label}
             </div>
-            <div className="flex-1 min-w-0">
-              <p className="text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
-                {item.label}
-              </p>
-            </div>
+
+            {/* Children list */}
+            <ul className="space-y-1">
+              {item.children?.map((child: any) => (
+                <li key={child.href}>
+                  <Link
+                    href={child.href}
+                    className="text-gray-700 hover:text-blue-600 px-2 py-1 rounded block transition-colors"
+                  >
+                    {child.label}
+                  </Link>
+
+                  {/* Sub-children */}
+                  {child.children && (
+                    <ul className="pl-4 space-y-1 mt-1">
+                      {child.children.map((sub: any) => (
+                        <li key={sub.href}>
+                          <Link
+                            href={sub.href}
+                            className="text-gray-700 hover:text-blue-600 px-2 py-1 rounded block transition-colors"
+                          >
+                            {sub.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
           </div>
-        </Link>
-        {/* Render children if present */}
-        {item.children && (
-          <div className="ml-4 mt-1 border-l border-gray-200 pl-3">
-            {renderDropdownItems(item.children, level + 1)}
-          </div>
-        )}
+        ))}
       </div>
-    ));
+    );
   }
 
   // Recursive mobile dropdown renderer
@@ -284,7 +294,6 @@ export default function Header() {
           </button>
         </nav>
 
-        {/* Full-width animated dropdown */}
         {activeDropdown && (
           <div
             className={clsx(
@@ -298,9 +307,7 @@ export default function Header() {
             onMouseLeave={handleMouseLeave}
           >
             <div className="container mx-auto px-6 lg:px-8 py-5">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-                {renderDropdownItems(activeDropdown?.dropdown ?? [])}
-              </div>
+              {renderDropdownItems(activeDropdown?.dropdown ?? [])}
             </div>
           </div>
         )}
