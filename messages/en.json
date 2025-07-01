@@ -7,6 +7,13 @@
     "about_sentosa":"About Sentosa",
     "products": "Products",
     "report": "Report",
-    "e-form": "E-Form"
+    "e-form": "E-Form",
+    "savings": "Savings Account",
+    "deposit": "Deposit",
+    "time_deposit": "Time Deposit",
+    "loan": "Loan",
+    "working_capital": "Working Capital",
+    "investment_credit": "Investment Credit",
+    "consumer_credit": "Consumer Credit"
   }
 }
