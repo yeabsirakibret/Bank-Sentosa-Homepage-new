@@ -17,6 +17,12 @@
     "consumer_credit": "Consumer Credit",
     "financial_report": "Financial Report",
     "governance_report": "Governance Report",
-    "annual_report": "Annual Report"
+    "annual_report": "Annual Report",
+    "head_office": "Head Office",
+    "contact_us": "Contact Us",
+    "social_media": "Social Media",
+    "disclaimer": "BPR Karya Prima Sentosa is licensed and supervised by the Financial Services Authority of Indonesia (OJK), and is a member of the LPS deposit insurance scheme.",
+    "policy": "Policy",
+    "terms_and_conditions": "Terms and Conditions"
   }
 }
