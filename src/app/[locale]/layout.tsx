@@ -43,7 +43,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <Header />
 
-          <main className="w-full flex-1 mt-20 bg-white">
+          <main className="w-full flex-1  bg-white">
             {children}
           </main>
 

@@ -6,6 +6,7 @@ import { useSelectedLayoutSegment } from 'next/navigation';
 import clsx from 'clsx';
 import { Link } from '@/i18n/navigation';
 import { ChevronDown, ChevronRight } from 'lucide-react';
+import LocaleSwitcher from './LocaleSwitcher';
 
 export default function Header() {
   const t = useTranslations('Global');
@@ -194,6 +195,7 @@ export default function Header() {
                 </Link>
               );
             })}
+            <LocaleSwitcher/>
           </div>
 
           {/* Mobile menu button */}
