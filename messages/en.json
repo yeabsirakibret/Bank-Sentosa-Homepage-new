@@ -3,7 +3,7 @@
     "title": "Hello world!",
     "about": "About",
     "label": "Change language",
-    "locale": "{locale, select, id {ID Indonesian} en {🇺🇸 English} other {Unknown}}",
+    "locale": "{locale, select, id {ID Indonesian} en {ENG English} other {Unknown}}",
     "about_sentosa":"About Sentosa",
     "products": "Products",
     "report": "Report",
