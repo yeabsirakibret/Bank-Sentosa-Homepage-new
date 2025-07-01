@@ -3,6 +3,10 @@
     "title": "Halo dunia!",
     "about": "Pergi ke halaman tentang",
     "label": "Ubah bahasa",
-    "locale": "{locale, select, de {🇩🇪 Jerman} en {🇺🇸 Inggris} other {Tidak diketahui}}"
+    "locale": "{locale, select, de {🇩🇪 Je,rman} en {🇺🇸 Inggris} other {Tidak diketahui}}",
+    "about_sentosa": "Tentang Sentosa",
+    "products": "Produk",
+    "report": "Laporan",
+    "e-form": "E-Form"
   }
 }

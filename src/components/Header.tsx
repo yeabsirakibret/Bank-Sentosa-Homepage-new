@@ -21,11 +21,11 @@ export default function Header() {
     
   // Define your navigation links here
   const navLinks = [
-    { href: '/', label: t('title') },
-    { href: '/about', label: t('about') },
+    // { href: '/', label: t('title') },
+    { href: '/about', label: t('about_sentosa') },
     {
       href: '/products',
-      label: 'Products',
+      label: t('products'),
       dropdown: [
         { 
           href: '/products/savings', 
@@ -49,33 +49,9 @@ export default function Header() {
         },
       ],
     },
-    {
-      href: '/services',
-      label: 'Services',
-      dropdown: [
-        { 
-          href: '/services/online', 
-          label: 'Online Banking',
-          description: '24/7 secure online banking platform'
-        },
-        { 
-          href: '/services/mobile', 
-          label: 'Mobile App',
-          description: 'Banking on-the-go with our mobile app'
-        },
-        { 
-          href: '/services/support', 
-          label: 'Customer Support',
-          description: 'Get help when you need it most'
-        },
-        { 
-          href: '/services/investment', 
-          label: 'Investment Advisory',
-          description: 'Professional investment guidance'
-        },
-      ],
-    },
-    { href: '/contact', label: 'Contact' },
+    {href: '/report', label: t('report') },
+    
+    { href: '/e-form', label: t('e-form') },
   ];
 
   // Find the currently open dropdown's items
@@ -316,6 +292,7 @@ export default function Header() {
                   </Link>
                 );
               })}
+              <LocaleSwitcher/>
             </div>
           </div>
         )}
