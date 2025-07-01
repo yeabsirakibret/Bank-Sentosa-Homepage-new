@@ -61,7 +61,30 @@ export default function Header() {
         },
       ],
     },
-    { href: "/report", label: t("report") },
+    {
+      label: t("report"),
+      href: "/report",
+      dropdown: [
+        {
+          label: t("report"),
+          href: "/report",
+          children: [
+            {
+              href: "/report/financial-report",
+              label: t("financial_report"),
+            },
+            {
+              href: "/report/governance-report",
+              label: t("governance_report"),
+            },
+            {
+              href: "/report/annual-report",
+              label: t("annual_report"),
+            },
+          ],
+        },
+      ],
+    },
 
     { href: "/e-form", label: t("e-form") },
   ];
@@ -316,6 +339,9 @@ export default function Header() {
         {isMobileMenuOpen && (
           <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-gray-100 shadow-lg max-h-[calc(100vh-5rem)] overflow-y-auto">
             <div className="container mx-auto px-6 py-4 space-y-2">
+              <div className="flex justify-end">
+                <LocaleSwitcher />
+              </div>
               {navLinks.map((link) => {
                 if (link.dropdown) {
                   return (
@@ -346,7 +372,6 @@ export default function Header() {
                   </Link>
                 );
               })}
-              <LocaleSwitcher />
             </div>
           </div>
         )}

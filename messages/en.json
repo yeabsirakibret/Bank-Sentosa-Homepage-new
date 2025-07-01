@@ -14,6 +14,9 @@
     "loan": "Loan",
     "working_capital": "Working Capital",
     "investment_credit": "Investment Credit",
-    "consumer_credit": "Consumer Credit"
+    "consumer_credit": "Consumer Credit",
+    "financial_report": "Financial Report",
+    "governance_report": "Governance Report",
+    "annual_report": "Annual Report"
   }
 }

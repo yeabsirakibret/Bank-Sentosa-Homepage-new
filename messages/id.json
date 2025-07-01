@@ -14,6 +14,9 @@
     "loan": "Pinjaman",
     "working_capital": "Modal Kerja",
     "investment_credit": "Kredit Investasi",
-    "consumer_credit": "Kredit Konsumtif"
+    "consumer_credit": "Kredit Konsumtif",
+    "financial_report": "Laporan Keuangan",
+    "governance_report": "Laporan Tata Kelola",
+    "annual_report": "Laporan Tahunan"
   }
 }
