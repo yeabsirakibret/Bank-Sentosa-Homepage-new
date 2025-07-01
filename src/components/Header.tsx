@@ -322,6 +322,7 @@ export default function Header() {
         {activeDropdown && (
           <div
             className={clsx(
+                "animate-fadeInUp",
               "absolute left-0 w-full bg-white/95 backdrop-blur-md shadow-xl border-t border-gray-100 overflow-hidden transition-all duration-300 ease-out",
               isVisible
                 ? "opacity-100 translate-y-0"
