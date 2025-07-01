@@ -5,31 +5,31 @@ export default async function HomePage() {
   const t = await getTranslations("Global");
   return (
     <div className="relative">
-      {/* Image with welcome text overlay */}
-      <div className="relative w-full h-full">
+      {/* Image with welcome text overlay - made more compact */}
+      <div className="relative w-full h-[50vh] min-h-[400px] max-h-[500px]">
         <img
           src="/banner_3.jpg"
           className="w-full h-full object-cover"
-          alt=""
+          alt="Bank banner"
         />
-        {/* Welcome text overlay */}
-        <div className="absolute inset-0 flex items-end justify-center pb-20 bg-opacity-20">
-          <h1 className="text-white text-4xl md:text-6xl font-bold text-center px-4">
+        {/* Welcome text overlay - adjusted positioning */}
+        <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+          <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold text-center px-4">
             {t("welcome_message")}!
           </h1>
         </div>
       </div>
 
       {/* Announcement section below */}
-      <div>
-        <p className="text-center text-base mx-5 md:mx-24 my-10">
+      <div className="container mx-auto">
+        <p className="text-center text-base mx-5 md:mx-24 my-8 md:my-10">
           {t("name_change_announcement")}
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2  gap-4 px-4 md:px-24 mb-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-24 mb-10">
         <div className="bg-white p-6 rounded-lg shadow-2xl flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300">
-          <h1 className=" uppercase">{t("formerly")}</h1>
+          <h1 className="uppercase">{t("formerly")}</h1>
           <p className="font-bold uppercase text-center">
             PT. BANK PERKREDITAN RAKYAT KARYA PRIMA SENTOSA
           </p>
@@ -42,7 +42,7 @@ export default async function HomePage() {
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-2xl flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300">
-          <h1 className=" uppercase">{t("new_name")}</h1>
+          <h1 className="uppercase">{t("new_name")}</h1>
           <p className="font-bold uppercase text-center">
             PT. BANK PEREKONOMIAN RAKYAT KARYA PRIMA SENTOSA
           </p>
