@@ -3,8 +3,8 @@ import {routing} from '@/i18n/routing';
 import LocaleSwitcherSelect from './LocaleSwitcherSelect';
 
 const localeMeta = {
-  en: { label: 'ENG', flag: '/flags/us.svg' },
-  id: { label: 'ID', flag: '/flags/id.svg' }
+  id: { label: 'ID', flag: '/flags/id.svg' },
+  en: { label: 'ENG', flag: '/flags/us.svg' }
 };
 
 export default function LocaleSwitcher() {

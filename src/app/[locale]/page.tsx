@@ -10,13 +10,13 @@ export default async function HomePage() {
       <div className="relative w-full h-[50vh] min-h-[400px] max-h-[500px]">
         <Image
           src="/banner_3.jpg"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
           fill={true}
           alt="Bank banner"
         />
         {/* Welcome text overlay - adjusted positioning */}
         <div className="absolute inset-0 flex items-center justify-center bg-black/20">
-          <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold text-center px-4">
+          <h1 className="text-white text-3xl drop-shadow-sm  backdrop-blur-xs rounded-4xl  md:text-5xl lg:text-6xl font-bold text-center px-4">
             {t("welcome")}!
           </h1>
         </div>
@@ -57,34 +57,53 @@ export default async function HomePage() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 relative w-full min-h-[400px] md:h-[600px] bg-cover bg-center bg-no-repeat flex flex-col items-center md:flex-row md:items-end md:justify-around">
-        {/* Image container - moved to top on mobile */}
-        <div className="w-full flex justify-center md:justify-end md:block md:w-auto mt-8 md:mt-0 order-1 md:order-2">
+      <div
+        className="relative w-full min-h-[400px] md:h-[600px] flex flex-col items-center md:flex-row md:items-end justify-center md:justify-around overflow-hidden"
+        style={{
+          backgroundImage: "url('/download_our_app_background.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundAttachment: "fixed", // Creates beautiful parallax effect
+        }}
+      >
+        {/* Enhanced blur overlay with gradient */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/20 to-black/30 backdrop-blur-md"></div>
+
+        {/* Stronger bottom fade to ground the content */}
+        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/30 to-transparent z-10"></div>
+
+        {/* Image container with subtle glow */}
+        <div className="w-full flex justify-center md:justify-end md:block md:w-auto mt-8 md:mt-0 order-1 md:order-2 z-20 relative group">
+          <div className="absolute -inset-2 bg-yellow-400/20 rounded-xl blur-md group-hover:opacity-50 transition-opacity duration-300"></div>
           <img
             src="/app_sc_1.png"
-            className="w-full max-w-xs md:max-w-none md:h-[36rem] max-h-60 md:max-h-none object-contain mx-auto md:mr-12 lg:mr-24 transform hover:scale-105 transition-transform duration-500"
+            className="relative w-full max-w-xs md:max-w-none md:h-[36rem] max-h-60 md:max-h-none object-contain mx-auto md:mr-12 lg:mr-24 transform hover:scale-105 transition-all duration-500"
             alt="App Screenshot"
           />
         </div>
 
-        {/* Text container - moved to bottom on mobile */}
-        <div className="relative z-10 text-white px-6 pb-8 md:px-8 md:pb-24 max-w-2xl flex flex-col items-start order-2 md:order-1">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 leading-snug text-left">
+        {/* Text container with enhanced readability */}
+        <div className="relative z-20 text-white px-6 pb-8 md:px-8 md:pb-24 max-w-2xl flex flex-col items-start order-2 md:order-1">
+          <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 leading-snug text-left drop-shadow-lg">
             {t("get_convenience")}
+            <span className="block w-16 h-1.5 bg-yellow-400 mt-4 rounded-full"></span>{" "}
+            {/* Accent underline */}
           </h1>
 
           <a
             href="https://play.google.com/store/apps/details?id=id.bank.sentosa"
             target="_blank"
-            className="bg-white text-blue-600 hover:bg-blue-100 transition-all duration-300 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg shadow-lg hover:shadow-xl w-fit transform hover:scale-105 flex gap-2 items-center animate-bounce"
+            rel="noopener noreferrer"
+            className="bg-white text-blue-600 hover:bg-blue-100 transition-all duration-300 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg shadow-lg hover:shadow-xl w-fit transform hover:scale-105 flex gap-2 items-center animate-bounce" /* Changed to float animation */
           >
-            <CloudDownload className="w-4 h-4" />
+            <CloudDownload className="w-5 h-5" /> {/* Slightly larger icon */}
             {t("download")}
           </a>
         </div>
 
-        {/* Decorative elements */}
-        <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black/10 to-transparent"></div>
+        {/* Floating decorative elements */}
+        <div className="absolute top-1/4 left-10 w-3 h-3 rounded-full bg-yellow-400/80 animate-float delay-100"></div>
+        <div className="absolute bottom-1/3 right-20 w-4 h-4 rounded-full bg-white/30 animate-float delay-300"></div>
       </div>
     </div>
   );

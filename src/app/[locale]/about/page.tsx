@@ -20,7 +20,7 @@ export default async function AboutPage() {
     {
       name: "Hariyanto",
       positionTitle: t("ceo"),
-      pictureUrl: "/management-pics/hariyanto.jpeg",
+      pictureUrl: "/management-pics/hariyanto.png",
     },
     {
       name: "Harjito",
@@ -118,7 +118,7 @@ export default async function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {managements.map((management, index) => (
             <div key={index} className="group">
-              <div className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden hover:shadow-md hover:scale-105  transition-transform duration-300  w-fit">
+              <div className="bg-gray-100 border border-gray-200 rounded-lg shadow-sm overflow-hidden hover:shadow-md hover:scale-105  transition-transform duration-300  w-fit">
                 <div className="w-full aspect-square overflow-hidden">
                   <img
                     className="w-full h-full object-cover object-top" // Ensures full width coverage

@@ -49,7 +49,12 @@
     "management_title": "Manajemen",
     "ceo": "Direktur Utama",
     "director": "Direktur",
-    "commissioner": "Komisaris"
+    "commissioner": "Komisaris",
+    "file_name": "Nama File",
+    "file_size": "Ukuran File",
+    "view_download": "Lihat / Unduh",
+    "download_e-form": "Unduh E-Form",
+    "no_files": "Tidak ada file ditemukan."
   
   }
 }
