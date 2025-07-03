@@ -1,5 +1,6 @@
 import { CloudDownload } from "lucide-react";
 import { getTranslations } from "next-intl/server";
+import Image from 'next/image'
 
 export default async function HomePage() {
   const t = await getTranslations("Global");
@@ -7,15 +8,16 @@ export default async function HomePage() {
     <div className="relative">
       {/* Image with welcome text overlay - made more compact */}
       <div className="relative w-full h-[50vh] min-h-[400px] max-h-[500px]">
-        <img
+        <Image
           src="/banner_3.jpg"
           className="w-full h-full object-cover"
+          fill={true}
           alt="Bank banner"
         />
         {/* Welcome text overlay - adjusted positioning */}
         <div className="absolute inset-0 flex items-center justify-center bg-black/20">
           <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold text-center px-4">
-            {t("welcome_message")}!
+            {t("welcome")}!
           </h1>
         </div>
       </div>

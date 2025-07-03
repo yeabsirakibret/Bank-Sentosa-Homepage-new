@@ -381,7 +381,7 @@ export default function Header() {
       </div>
 
       {/* Spacer to prevent content from going under fixed header */}
-      <div className="h-20"></div>
+      <div className="h-16 "></div>
 
       <style jsx>{`
         @keyframes fadeInUp {

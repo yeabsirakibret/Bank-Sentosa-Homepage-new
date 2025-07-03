@@ -30,6 +30,25 @@
     "abbreviated": "Abbreviated",
     "new_name": "New Name",
     "get_convenience": "Get Various Conveniences",
-    "download": "Download"
+    "download": "Download",
+    "welcome": "Welcome",
+    "history_title": "History of Bank Sentosa",
+    "history_intro": "BPR Karya Prima Sentosa is one of the people's economy banks in Indonesia that continues to innovate to improve service quality and ensure transaction security for customers.",
+    "history_origin": "PT. BPR Karya Prima Sentosa began operations in 1994 under the initial name BPR Ragam Dana Kencana, and has changed its name several times, now becoming PT. BPR Karya Prima Sentosa.",
+    "history_commitment": "PT. BPR Karya Prima Sentosa is committed to having high-quality human resources, quality products, and fast processes to serve customers and develop a people-centered economic business.",
+    "history_acquisition": "On December 5, 2024, the majority ownership of PT BPR Karya Prima Sentosa was transferred to Dr. Eric Hermawan, M.T., MM., who also serves as a member of Commission XI of the Indonesian Parliament.",
+    "history_new_chapter": "This change marks the beginning of a new chapter in the company's journey, with the hope of bringing a spirit of renewal and a stronger commitment to providing safe and trustworthy financial solutions for the community.",
+    "vision_title": "Vision",
+    "vision_text": "To become a trusted and reliable BPR, providing the best and most professional service to be one of the largest and leading BPRs.",
+    "mission_title": "Mission",
+    "mission_1": "Provide financing to micro, small, and medium-scale productive businesses with fast and precise service while maintaining prudent principles.",
+    "mission_2": "Deliver professional service by exceeding customer expectations (Service Excellence) to build stronger customer loyalty to BPR.",
+    "mission_3": "Create a safe and conducive work environment, offering fulfillment and opportunities to improve the quality of Human Resources who are honest, trustworthy, and have integrity, working more effectively and efficiently.",
+    "mission_4": "Strengthen risk culture and embedded supervision.",
+    "mission_5": "Build partnerships with credit distribution companies through digital platforms (Linkage Program).",
+    "management_title": "Management",
+    "ceo": "President Director",
+    "director": "Director",
+    "commissioner": "Commissioner"
   }
 }
