@@ -76,7 +76,7 @@ export default async function HomePage() {
           <a
             href="https://play.google.com/store/apps/details?id=id.bank.sentosa"
             target="_blank"
-            className="bg-white text-blue-600 hover:bg-blue-100 transition-all duration-300 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg shadow-lg hover:shadow-xl w-fit transform hover:scale-105 flex gap-2 items-center"
+            className="bg-white text-blue-600 hover:bg-blue-100 transition-all duration-300 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg shadow-lg hover:shadow-xl w-fit transform hover:scale-105 flex gap-2 items-center animate-bounce"
           >
             <CloudDownload className="w-4 h-4" />
             {t("download")}

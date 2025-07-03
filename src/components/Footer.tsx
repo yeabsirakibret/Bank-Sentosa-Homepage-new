@@ -17,7 +17,7 @@ export default function Footer() {
   const t = useTranslations("Global");
 
   return (
-    <footer className="w-full bg-gradient-to-b from-blue-600 to-blue-800 text-white shadow-lg">
+    <footer className="w-full bg-gradient-to-b from-blue-500 via-blue-600 to-blue-700 text-white shadow-lg">
       <div className="w-full max-w-7xl mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* Logo and basic info */}

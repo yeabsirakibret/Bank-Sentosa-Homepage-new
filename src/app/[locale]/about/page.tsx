@@ -30,7 +30,7 @@ export default async function AboutPage() {
     {
       name: "Lena Erdawati",
       positionTitle: t("commissioner"),
-      pictureUrl: "/management-pics/lena.png",
+      pictureUrl: "/management-pics/Lena.png",
     },
   ];
 
