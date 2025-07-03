@@ -4,7 +4,7 @@ import { financialStatements } from '@/lib/reports/financialStatements';
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const page = parseInt(searchParams.get("page") || "1");
-  const limit = parseInt(searchParams.get("limit") || "10");
+  const limit = parseInt(searchParams.get("limit") || "5");
   const year = searchParams.get("year");
   const quarter = searchParams.get("quarter");
 

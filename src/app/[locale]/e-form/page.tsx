@@ -124,7 +124,7 @@ export default function EForm() {
                   key={index}
                   className="bg-white p-4 rounded-lg shadow-xs border border-gray-100"
                 >
-                  <div className="flex items-center justify-between">
+                  <div className="flex flex-col items-center justify-between">
                     <div className="flex items-center truncate">
                       <FileIcon className="h-5 w-5 text-blue-500 mr-2 flex-shrink-0" />
                       <span className="text-sm font-medium text-gray-900 truncate">

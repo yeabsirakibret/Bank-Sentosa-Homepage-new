@@ -54,7 +54,11 @@
     "file_size": "Ukuran File",
     "view_download": "Lihat / Unduh",
     "download_e-form": "Unduh E-Form",
-    "no_files": "Tidak ada file ditemukan."
+    "no_files": "Tidak ada file ditemukan.",
+    "financial_statements": "Laporan Keuangan",
+    "year": "Tahun",
+    "previous": "Sebelumnya",
+    "next": "Selanjutnya"
   
   }
 }

@@ -54,6 +54,10 @@
     "file_size": "File Size",
     "view_download": "View / Download",
     "download_e-form": "Download E-Form",
-    "no_files": "No files found."
+    "no_files": "No files found.",
+    "financial_statements": "Financial Statements",
+    "year": "Year",
+    "previous": "Previous",
+    "next": "Next"
   }
 }
