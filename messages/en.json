@@ -102,6 +102,146 @@
       "Approval, acknowledgment, and/or notification letter from the Ministry of Law and Human Rights.",
       "Business Identification Number (NIB).",
       "Other business licenses*"
+    ],
+    "investment_heading": "The Right Solution for",
+    "investment_subheading": "Your Investment",
+    "maxima_deposit_title": "Maxima Deposit",
+    "maxima_deposit_paragraph_1": "Maxima Deposit from Bank Sentosa is the right choice for those who want to save securely while earning maximum returns. With competitive interest rates and flexible tenor options, you can tailor the deposit period to fit your financial plans. Plus, deposits at Bank Sentosa are protected by the Deposit Insurance Corporation (LPS).",
+    "maxima_deposit_paragraph_2": "More than just saving money, Maxima Deposit gives you full control over fund management with low risk and still-profitable returns. The opening process is simple, and direct rewards are available for specific amounts during the promo period. It’s time to maximize your financial potential and achieve a more stable financial future with Bank Sentosa.",
+    "interest_rate_title": "Interest Rate",
+    "interest_rate_description": "Fixed-term deposit up to 12 months. <b>Interest up to 6.50% p.a</b>",
+    "open_deposit_cta": "Open Deposit",
+    "benefit_high_interest": "High interest rate up to the maximum insured limit by LPS.",
+    "benefit_aro": "Freely extend deposit automatically (Automatic Roll Over / ARO).",
+    "benefit_interest_options": "Interest can be reinvested into the principal deposit or transferred to your Savings Account, which can be withdrawn anytime.",
+    "benefit_personal_service": "Personalized services from a Personal Banking Officer who will serve you wholeheartedly.",
+    
+    "deposit_requirements_list": [
+      {
+        "title": "General Requirements",
+        "content": [
+          "Applicants can be individuals or legal entities.",
+          "Complete and sign the account opening form.",
+          "If the account is opened via proxy, the proxy must present a Power of Attorney from the authorized party.",
+          "Fulfill the minimum initial deposit requirement.",
+          "Stamp duty will be charged at the time of deposit opening or withdrawal.",
+          "Prepare all required documents."
+        ]
+      },
+      {
+        "title": "Individual Customer",
+        "content": [
+          "Identification card (e-KTP for Indonesian citizens / Passport for foreigners)",
+          "Tax Identification Number (NPWP)* for Indonesian citizens",
+          "Residence Permit (KITAS/KITAP) for foreigners",
+          "Business License (SITU), specifically for Indonesian citizens who reside and operate under a personal name (b.d.n)",
+          "Other documents (for foreigners not residing in Indonesia) according to APU, PPT, and relevant guidelines.",
+          "*Note: If the customer does not have an NPWP, a Declaration Letter may be submitted instead."
+        ]
+      },
+      {
+        "title": "Limited Company (PT)",
+        "content": [
+          "ID cards of all Directors.",
+          "Company Tax ID (NPWP)",
+          "Deed of Establishment",
+          "Deed of Articles of Association Amendment (if any)*",
+          "Legalization by Ministry of Law and Human Rights (SK Menkumham)**",
+          "Business License (SIUP)",
+          "Domicile Letter / SITU",
+          "Notary Cover Note***",
+          "Deed listing current Board of Directors.",
+          "Business Identification Number (NIB)",
+          "Other relevant licenses*"
+        ]
+      },
+      {
+        "title": "Limited Partnership (CV)",
+        "content": [
+          "ID cards of all Executives.",
+          "Company Tax ID (NPWP)",
+          "Deed of Establishment",
+          "Deed of Articles of Association Amendment (if any)*",
+          "Business License (SIUP)",
+          "Domicile Letter / SITU",
+          "District Court Registration",
+          "Notary Cover Note***",
+          "Deed listing current Board of Executives.",
+          "Business Identification Number (NIB)",
+          "Other relevant licenses*"
+        ]
+      },
+      {
+        "title": "Firma (Firm)",
+        "content": [
+          "ID cards of all Executives.",
+          "Company Tax ID (NPWP)",
+          "Deed of Establishment",
+          "Deed of Articles of Association Amendment (if any)*",
+          "Business License (SIUP)",
+          "Domicile Letter / SITU",
+          "District Court Registration",
+          "Notary Cover Note***",
+          "Deed listing current Board of Executives.",
+          "Business Identification Number (NIB)",
+          "Other relevant licenses*"
+        ]
+      },
+      {
+        "title": "Foundation",
+        "content": [
+          "ID cards of all Executives.",
+          "Company Tax ID (NPWP)",
+          "Deed of Establishment",
+          "Deed of Articles of Association Amendment (if any)*",
+          "Legalization by Ministry of Law and Human Rights (SK Menkumham)**",
+          "TDP/TDY",
+          "Domicile Letter / SITU",
+          "License from relevant institution",
+          "Notary Cover Note***",
+          "Deed listing current Board of Executives.",
+          "Other relevant licenses*"
+        ]
+      },
+      {
+        "title": "Cooperative",
+        "content": [
+          "ID cards of all Executives.",
+          "Company Tax ID (NPWP)",
+          "Deed of Establishment",
+          "Deed of Articles of Association Amendment (if any)*",
+          "Business License (SIUP)",
+          "Domicile Letter / SITU",
+          "Decree from the Ministry of Cooperatives",
+          "Notary Cover Note***",
+          "Deed listing current Board of Executives.",
+          "Business Identification Number (NIB)",
+          "Other relevant licenses*"
+        ]
+      },
+      {
+        "title": "Joint Venture",
+        "content": [
+          "ID cards of all Executives.",
+          "Passport & KITAS/KIMS of Executives",
+          "Company Tax ID (NPWP)",
+          "Deed of Establishment",
+          "Deed of Articles of Association Amendment (if any)*",
+          "Legalization by Ministry of Law and Human Rights (SK Menkumham)**",
+          "Business License (SIUP)",
+          "Domicile Letter / SITU",
+          "District Court Registration",
+          "Approval Letter from BKPM",
+          "License from relevant institution",
+          "Notary Cover Note***",
+          "Deed listing current Board of Executives.",
+          "Business Identification Number (NIB)",
+          "Other relevant licenses*"
+        ]
+      }
     ]
+    
+    
+    
   }
 }

@@ -102,6 +102,147 @@
       "Surat pengesahan, surat persetujuan, dan/atau penerimaan pemberitahuan dari Menteri Hukum dan HAM.",
       "Nomor Induk Berusaha (NIB).",
       "Dokumen perizinan lainnya*"
+    ],
+
+    "investment_heading": "Solusi Tepat untuk",
+    "investment_subheading": "Investasi Anda",
+    "maxima_deposit_title": "Deposito Maxima",
+    "maxima_deposit_paragraph_1": "Deposito Maxima dari Bank Sentosa adalah pilihan tepat bagi kamu yang ingin menyimpan dana secara aman sekaligus mendapatkan imbal hasil yang maksimal. Dengan suku bunga yang kompetitif dan pilihan tenor fleksibel, kamu bisa menyesuaikan jangka waktu penyimpanan sesuai dengan rencana keuanganmu. Ditambah deposito di Bank Sentosa terlindungi oleh Lembaga Penjamin Simpanan (LPS).",
+    "maxima_deposit_paragraph_2": "Lebih dari sekadar menyimpan uang, Deposito Maxima memberi kamu kontrol penuh atas pengelolaan dana dengan risiko rendah namun hasil yang tetap menguntungkan. Proses pembukaan mudah, dan tersedia hadiah langsung untuk nominal tertentu selama periode promo. Saatnya maksimalkan potensi keuanganmu dan raih masa depan finansial yang lebih stabil bersama Bank Sentosa.",
+    "interest_rate_title": "Suku Bunga",
+    "interest_rate_description": "Deposito Berjangka maksimal 12 bulan. <b>Bunga hingga 6.50% p.a</b>",
+    "open_deposit_cta": "Buka Deposito",
+    "benefit_high_interest": "Bunga tinggi hingga maksimal penjamin bunga simpanan LPS.",
+    "benefit_aro": "Bebas memperpanjang deposito secara otomatis (Automatic Roll Over / ARO).",
+    "benefit_interest_options": "Bunga dapat ditempatkan kembali ke pokok deposito atau ditransfer ke rekening Tabungan anda yang dapat ditarik kapanpun.",
+    "benefit_personal_service": "Personalized Services dari Personal Banking Officer yang akan melayani Anda dengan sepenuh hati",
+    
+    "deposit_requirements_list":[
+      {
+        "title": "Perlu di Ketahui",
+        "content": [
+          "Calon nasabah dapat berupa perorangan maupun badan usaha.",
+          "Melengkapi serta menandatangani formulir pembukaan rekening.",
+          "Jika pembukaan rekening dilakukan melalui kuasa, maka penerima kuasa wajib menyertakan Surat Kuasa dari pihak yang berwenang.",
+          "Memenuhi setoran awal minimum.",
+          "Biaya meterai akan dikenakan kepada nasabah pada saat pembukaan maupun pencairan deposito.",
+          "Menyiapkan dokumen yang diperlukan."
+        ]
+      },
+      {
+        "title": "Jenis Nasabah Perorangan",
+        "content": [
+          "Kartu identitas (KTP-el untuk WNI / Paspor untuk WNA)",
+          "NPWP* untuk WNI",
+          "Kartu Izin Tinggal (KITAS/KITAP) untuk WNA",
+          "Surat Izin Tempat Usaha (SITU), khusus untuk WNI yang menetap dan berusaha di bawah nama pribadi (b.d.n)",
+          "Dokumen lainnya (khusus untuk WNA yang tidak menetap di Indonesia) sesuai dengan pedoman APU, PPT, dan ketentuan yang berlaku.",
+          "*Keterangan: Jika belum memiliki NPWP, dapat diganti dengan Surat Pernyataan Tidak Memiliki NPWP."
+        ]
+      },
+      {
+        "title": "Jenis Nasabah PT",
+        "content": [
+          "KTP seluruh Pengurus.",
+          "NPWP Perusahaan",
+          "Akta Pendirian",
+          "Akta Perubahan Anggaran Dasar (jika ada)*",
+          "SK Menkumham**",
+          "SIUP",
+          "SK Domisili / SITU",
+          "Cover Note Notaris***",
+          "Akta yang memuat susunan pengurus yang masih berlaku.",
+          "Nomor Induk Berusaha (NIB)",
+          "Dokumen perizinan lainnya*"
+        ]
+      },
+      {
+        "title": "Jenis Nasabah CV",
+        "content": [
+          "KTP seluruh Pengurus.",
+          "NPWP Perusahaan",
+          "Akta Pendirian",
+          "Akta Perubahan Anggaran Dasar (jika ada)*",
+          "SIUP",
+          "SK Domisili / SITU",
+          "Pendaftaran Pengadilan Negeri",
+          "Cover Note Notaris***",
+          "Akta yang memuat susunan pengurus yang masih berlaku.",
+          "Nomor Induk Berusaha (NIB)",
+          "Dokumen perizinan lainnya*"
+        ]
+      },
+      {
+        "title": "Jenis Nasabah Firma",
+        "content": [
+          "KTP seluruh Pengurus.",
+          "NPWP Perusahaan",
+          "Akta Pendirian",
+          "Akta Perubahan Anggaran Dasar (jika ada)*",
+          "SIUP",
+          "SK Domisili / SITU",
+          "Pendaftaran Pengadilan Negeri",
+          "Cover Note Notaris***",
+          "Akta yang memuat susunan pengurus yang masih berlaku.",
+          "Nomor Induk Berusaha (NIB)",
+          "Dokumen perizinan lainnya*"
+        ]
+      },
+      {
+        "title": "Jenis Nasabah Yayasan",
+        "content": [
+          "KTP seluruh Pengurus.",
+          "NPWP Perusahaan",
+          "Akta Pendirian",
+          "Akta Perubahan Anggaran Dasar (jika ada)*",
+          "SK Menkumham**",
+          "TDP/TDY",
+          "SK Domisili / SITU",
+          "Izin dari Instansi Berwenang",
+          "Cover Note Notaris***",
+          "Akta yang memuat susunan pengurus yang masih berlaku.",
+          "Dokumen perizinan lainnya*"
+        ]
+      },
+      {
+        "title": "Jenis Nasabah Koperasi",
+        "content": [
+          "KTP seluruh Pengurus.",
+          "NPWP Perusahaan",
+          "Akta Pendirian",
+          "Akta Perubahan Anggaran Dasar (jika ada)*",
+          "SIUP",
+          "SK Domisili / SITU",
+          "SK Menteri Koperasi",
+          "Cover Note Notaris***",
+          "Akta yang memuat susunan pengurus yang masih berlaku.",
+          "Nomor Induk Berusaha (NIB)",
+          "Dokumen perizinan lainnya*"
+        ]
+      },
+      {
+        "title": "Jenis Nasabah Usaha Patungan",
+        "content": [
+          "KTP seluruh Pengurus.",
+          "Paspor & KITAS/KIMS Pengurus",
+          "NPWP Perusahaan",
+          "Akta Pendirian",
+          "Akta Perubahan Anggaran Dasar (jika ada)*",
+          "SK Menkumham**",
+          "SIUP",
+          "SK Domisili / SITU",
+          "Pendaftaran Pengadilan Negeri",
+          "Surat Persetujuan dari BKPM",
+          "Izin dari Instansi Berwenang",
+          "Cover Note Notaris***",
+          "Akta yang memuat susunan pengurus yang masih berlaku.",
+          "Nomor Induk Berusaha (NIB)",
+          "Dokumen perizinan lainnya*"
+        ]
+      }
     ]
+    
+    
+  
   }
 }
