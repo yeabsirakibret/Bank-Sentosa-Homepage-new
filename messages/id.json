@@ -336,9 +336,48 @@
           "Fotokopi NIB/TDP/SIUP"
         ]
       }
+    ],
+
+    "realize_needs_heading": "Wujudkan Berbagai",
+    "realize_needs_subheading": "Kebutuhan Anda",
+    "consumer_credit_paragraph_1": "Penuhi berbagai kebutuhan konsumtif Anda dengan Kredit Konsumsi dari Bank Sentosa.",
+    "consumer_credit_paragraph_2": "Solusi pembiayaan yang fleksibel untuk mendukung rencana pribadi Anda, mulai dari renovasi rumah, biaya pendidikan, hingga kebutuhan lainnya.",
+    "consumer_credit_paragraph_3": "Proses mudah, bunga kompetitif, dan cicilan yang disesuaikan dengan kemampuan Anda.",
+    "consumer_credit_cta": "Ajukan Sekarang",
+
+    "consumer_credit_requirements_list": [
+      {
+        "title": "Perlu di Ketahui",
+        "content": [
+          "Karyawan/Wirausaha.",
+          "Usia debitur minimal 21 tahun dan pada saat jatuh tempo pinjaman usia maksimal 65 tahun.",
+          "Memiliki rumah sendiri (jika tidak memiliki rumah harus ada personal garansi dari orang tua yang memiliki rumah tinggal)",
+          "SLIK clear 2 tahun / maksimal kolektibilitas 2 lunas",
+          "Pemohon merupakan karyawan tetap di perusahaan tempat bekerja (untuk karyawan).",
+          "Minimal usaha sudah berjalan 2 tahun (untuk wirausaha)."
+        ]
+      },
+      {
+        "title": "Persyaratan Dokumen Pribadi",
+        "content": [
+          "Fotokopi KTP",
+          "Fotokopi NPWP",
+          "Fotokopi Kartu Keluarga",
+          "Fotokopi KTP Pasangan",
+          "Fotokopi Akta Nikah",
+          "Fotokopi Akta Cerai/Mati"
+        ]
+      },
+      {
+        "title": "Persyaratan Dokumen Agunan & Finansial",
+        "content": [
+          "Fotokopi Sertifikat",
+          "Fotokopi KTP & NPWP Pemilik Agunan",
+          "Fotokopi IMB",
+          "Fotokopi PBB, IMB, SPPT & STTS PBB"
+        ]
+      }
     ]
-    
-    
     
   
   }

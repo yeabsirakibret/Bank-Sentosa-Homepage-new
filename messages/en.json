@@ -335,7 +335,49 @@
           "Copy of Business Identification Number (NIB)/TDP/SIUP"
         ]
       }
+    ],
+    "realize_needs_heading": "Fulfill Your",
+    "realize_needs_subheading": "Every Need",
+    "consumer_credit_paragraph_1": "Meet your various personal needs with Consumer Credit from Bank Sentosa.",
+    "consumer_credit_paragraph_2": "A flexible financing solution to support your personal plans, from home renovation and education costs to other needs.",
+    "consumer_credit_paragraph_3": "Easy process, competitive interest rates, and installments tailored to your financial capacity.",
+    "consumer_credit_cta": "Apply Now",
+
+    "consumer_credit_requirements_list": [
+      {
+        "title": "Things to Know",
+        "content": [
+          "Employee / Entrepreneur.",
+          "Minimum borrower age is 21 years, and maximum age at loan maturity is 65 years.",
+          "Must own a house (if not, a personal guarantee from a parent who owns a residence is required).",
+          "SLIK must be clear for 2 years / maximum collectibility 2 fully paid.",
+          "Applicant must be a permanent employee at their current company (for employees).",
+          "Business must have been operating for at least 2 years (for entrepreneurs)."
+        ]
+      },
+      {
+        "title": "Personal Document Requirements",
+        "content": [
+          "Copy of ID card (KTP)",
+          "Copy of Tax ID (NPWP)",
+          "Copy of Family Card",
+          "Copy of Spouse's ID card",
+          "Copy of Marriage Certificate",
+          "Copy of Divorce/Death Certificate"
+        ]
+      },
+      {
+        "title": "Collateral & Financial Document Requirements",
+        "content": [
+          "Copy of Property Certificate",
+          "Copy of ID & NPWP of Property Owner",
+          "Copy of Building Permit (IMB)",
+          "Copy of Land & Building Tax, IMB, SPPT & STTS PBB"
+        ]
+      }
     ]
+    
+    
     
     
     
