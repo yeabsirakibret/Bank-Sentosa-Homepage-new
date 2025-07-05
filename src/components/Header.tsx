@@ -120,28 +120,22 @@ export default function Header() {
     }
   };
 
-  function renderDropdownItems(items: any[]) {
+  function renderDropdownItems(items: any[], onLinkClick?: () => void) {
     return (
       <div className="flex flex-row gap-8 w-full items-start">
         {items.map((item) => (
           <div key={item.href} className="min-w-[160px]">
-            {/* Parent label with same vertical spacing as first child */}
-            <div className=" text-gray-900 px-2 py-1">
-              {item.label}
-            </div>
-
-            {/* Children list */}
+            <div className=" text-gray-900 px-2 py-1">{item.label}</div>
             <ul className="space-y-1">
               {item.children?.map((child: any) => (
                 <li key={child.href}>
                   <Link
                     href={child.href}
                     className="text-gray-700 font-bold hover:text-blue-600 px-2 py-1 rounded block transition-colors"
+                    onClick={onLinkClick}
                   >
                     {child.label}
                   </Link>
-
-                  {/* Sub-children */}
                   {child.children && (
                     <ul className="pl-4 space-y-1 mt-1">
                       {child.children.map((sub: any) => (
@@ -149,6 +143,7 @@ export default function Header() {
                           <Link
                             href={sub.href}
                             className="text-gray-700 hover:text-blue-600 px-2 py-1 rounded block transition-colors"
+                            onClick={onLinkClick}
                           >
                             {sub.label}
                           </Link>
@@ -333,7 +328,10 @@ export default function Header() {
             onMouseLeave={handleMouseLeave}
           >
             <div className="container mx-auto px-6 lg:px-8 py-5">
-              {renderDropdownItems(activeDropdown?.dropdown ?? [])}
+              {renderDropdownItems(activeDropdown?.dropdown ?? [], () => {
+                setIsVisible(false);
+                setOpenDropdown(null);
+              })}
             </div>
           </div>
         )}
