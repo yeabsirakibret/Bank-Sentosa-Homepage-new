@@ -127,7 +127,7 @@ export default function AnnualReport() {
     <div className={`${geistSans.className} w-full flex flex-col min-h-screen`}>
       {/* Enhanced Header */}
       <div className="relative overflow-hidden py-16 px-8 bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg">
-        <div className="absolute inset-0 bg-[url('/pattern.svg')] opacity-10"></div>
+        <div className="absolute inset-0 opacity-10"></div>
         <div className="relative z-10 max-w-6xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold mb-2">
             {t("annual_report")}

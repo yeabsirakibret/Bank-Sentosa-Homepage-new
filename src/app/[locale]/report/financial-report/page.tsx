@@ -128,12 +128,11 @@ export default function FinancialReports() {
     <div className={`${geistSans.className} w-full flex flex-col min-h-screen`}>
       {/* Enhanced Header */}
       <div className="relative overflow-hidden py-16 px-8 bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg">
-        <div className="absolute inset-0 bg-[url('/pattern.svg')] opacity-10"></div>
+        <div className="absolute inset-0 opacity-10"></div>
         <div className="relative z-10 max-w-6xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold mb-2">
             {t("financial_statements")}
           </h1>
-          
         </div>
       </div>
 
@@ -173,9 +172,7 @@ export default function FinancialReports() {
                       <th
                         scope="col"
                         className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider"
-                      >
-                        
-                      </th>
+                      ></th>
                     </tr>
                   </thead>
                   <tbody className="bg-white divide-y divide-gray-200">
