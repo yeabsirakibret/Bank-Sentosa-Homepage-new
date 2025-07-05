@@ -295,7 +295,48 @@
           "Copy of latest PBB payment receipt"
         ]
       }
+    ],
+
+    "business_boost_heading": "Build & Grow",
+    "business_boost_subheading": "Your Business Now",
+    "investment_credit_paragraph": "Bring your big plans to life with Investment Credit from Bank Sentosa. Ideal for financing the purchase of production equipment, business machinery modernization, as well as expansion and development of new ventures. With the right financing support, your business can grow more optimally and be ready to compete in the market.",
+    "investment_credit_cta": "Apply Now",
+
+    "investment_credit_requirements_list":[
+      {
+        "title": "Things to Know",
+        "content": [
+          "Employee / Entrepreneur",
+          "Minimum borrower age is 21 years and maximum age at loan maturity is 65 years",
+          "Must own a house (if not, a personal guarantee from a parent who owns a residence is required)",
+          "SLIK clear for 2 years / maximum collectibility 2 fully paid",
+          "Applicant must be a permanent employee at their workplace (for employees)",
+          "Business must have been operating for at least 2 years (for entrepreneurs)"
+        ]
+      },
+      {
+        "title": "Identity Document Requirements",
+        "content": [
+          "Copy of ID card (KTP)",
+          "Copy of Spouse's ID card*",
+          "Copy of Tax ID (NPWP)",
+          "Copy of Family Card",
+          "Copy of Marriage Certificate*",
+          "Copy of Divorce/Death Certificate*",
+          "Copy of Separate Property Certificate*"
+        ]
+      },
+      {
+        "title": "Business Entity Document Requirements",
+        "content": [
+          "Copy of identity documents of management and shareholders",
+          "Copy of Tax ID (NPWP)",
+          "Copy of Deed of Establishment and all amendments",
+          "Copy of Business Identification Number (NIB)/TDP/SIUP"
+        ]
+      }
     ]
+    
     
     
     

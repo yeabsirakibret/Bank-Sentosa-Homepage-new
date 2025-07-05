@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface BannerProps {
@@ -28,10 +29,11 @@ const Banner = ({
   };
 
   return (
-    <div className="relative w-full h-64 md:h-[80vh] max-h-[800px] bg-gray-200 overflow-hidden rounded-lg shadow-md">
-      <img
+    <div className="relative w-full h-64 md:h-[80vh] max-h-[800px] bg-gray-200 overflow-hidden shadow-md">
+      <Image
         src={imageSrc}
         alt={altText}
+        fill={true}
         className={`absolute inset-0 w-full h-full object-cover ${objectPosition}`}
       />
 

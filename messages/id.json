@@ -296,7 +296,48 @@
           "Fotokopi bukti bayar PBB terakhir"
         ]
       }
+    ],
+
+    "business_boost_heading": "Bangun & Kembangkan",
+    "business_boost_subheading": "Bisnismu Sekarang",
+    "investment_credit_paragraph": "Wujudkan rencana besar Anda dengan Kredit Investasi dari Bank Sentosa. Cocok untuk pembiayaan pembelian alat-alat produksi, modernisasi mesin usaha, hingga modal perluasan dan pengembangan usaha baru. Dengan dukungan pembiayaan yang tepat, usaha Anda bisa berkembang lebih optimal dan siap bersaing di pasar.",
+    "investment_credit_cta": "Ajukan Sekarang",
+
+    "investment_credit_requirements_list": [
+      {
+        "title": "Perlu di Ketahui",
+        "content": [
+          "Karyawan/ Wirausaha",
+          "Usia debitur minimal 21 tahun dan pada saat jatuh tempo pinjaman usia maksimal 65 tahun",
+          "Memiliki rumah sendiri (jika tidak memiliki rumah harus ada personal garansi dari orang tua yang memiliki rumah tinggal)",
+          "SLIK clear 2 tahun / maksimal kolektibilitas 2 lunas",
+          "Pemohon merupakan karyawan tetap di perusahaan tempat bekerja (untuk karyawan)",
+          "Minimal usaha sudah berjalan 2 tahun (untuk wirausaha)"
+        ]
+      },
+      {
+        "title": "Syarat Dokumen Identitas",
+        "content": [
+          "Fotokopi KTP",
+          "Fotokopi KTP Pasangan*",
+          "Fotokopi NPWP",
+          "Fotokopi Kartu Keluarga",
+          "Fotokopi Akta Nikah*",
+          "Fotokopi Akta Cerai/Mati*",
+          "Fotokopi Akta Pisah Harta*"
+        ]
+      },
+      {
+        "title": "Persyaratan Dokumen Badan Usaha",
+        "content": [
+          "Fotokopi dokumen identitas pengurus dan pemegang saham",
+          "Fotokopi NPWP",
+          "Fotokopi Akta Pendirian & Seluruh Perubahannya",
+          "Fotokopi NIB/TDP/SIUP"
+        ]
+      }
     ]
+    
     
     
   
