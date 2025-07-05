@@ -322,7 +322,7 @@ export default function Header() {
         {activeDropdown && (
           <div
             className={clsx(
-                "animate-fadeInUp",
+              "animate-fadeInUp",
               "absolute left-0 w-full bg-white/95 backdrop-blur-md shadow-xl border-t border-gray-100 overflow-hidden transition-all duration-300 ease-out",
               isVisible
                 ? "opacity-100 translate-y-0"
@@ -346,15 +346,23 @@ export default function Header() {
                 <LocaleSwitcher />
               </div>
               {navLinks.map((link) => {
+                const isActive = pathname === link.href;
                 if (link.dropdown) {
                   return (
                     <div key={link.href} className="space-y-2">
                       <Link
                         href={link.href}
-                        className="block px-4 py-3 text-base font-medium rounded-lg transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                        className={clsx(
+                          "block px-4 py-3 text-base font-medium rounded-lg transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50 relative",
+                          isActive && "text-blue-600"
+                        )}
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         {link.label}
+                        {/* Active indicator */}
+                        {isActive && (
+                          <span className="absolute left-4 right-4 bottom-2 h-0.5 bg-blue-600 rounded"></span>
+                        )}
                       </Link>
                       <div className="ml-4 space-y-1">
                         {renderMobileDropdown(link.dropdown, () =>
@@ -368,10 +376,17 @@ export default function Header() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="block px-4 py-3 text-base font-medium rounded-lg transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                    className={clsx(
+                      "block px-4 py-3 text-base font-medium rounded-lg transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50 relative",
+                      isActive && "text-blue-600"
+                    )}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {link.label}
+                    {/* Active indicator */}
+                    {isActive && (
+                      <span className="absolute left-4 right-4 bottom-2 h-0.5 bg-blue-600 rounded"></span>
+                    )}
                   </Link>
                 );
               })}
