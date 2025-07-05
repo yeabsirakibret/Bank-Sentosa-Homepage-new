@@ -24,7 +24,7 @@ const REDIRECT_CONFIG: RedirectRule[] = [
 const intlMiddleware = createMiddleware({
   ...routing,
   localePrefix: 'always',
-  localeDetection: true
+  localeDetection: false
 });
 
 // 4. Helper function to check if a string is a valid locale
