@@ -67,6 +67,41 @@
     "why_smart_saving_title": "Mengapa Tabungan Pintar ?",
     "requirements_title": "Persyaratan",
     "secure_step_heading": "Langkah Aman untuk",
-    "secure_step_subheading": "Masa Depan Finansial Anda"
+    "secure_step_subheading": "Masa Depan Finansial Anda",
+    "benefit_insured": "Aman, karena diikutsertakan dalam program penjaminan simpanan di Lembaga Penjamin Simpanan (LPS)",
+    "benefit_interest": "Bunga sangat kompetitif",
+    "benefit_admin_fee": "Biaya administrasi bulanan yang sangat ringan",
+    "important_info_title": "Perlu di Ketahui",
+
+    "individual_requirements": [
+      "Rekening ini ditujukan bagi perorangan (WNI/WNA) yang memiliki identitas diri resmi.",
+      "Mengisi dan menyetujui formulir permohonan pembukaan rekening.",
+      "Melengkapi dan menyetujui formulir pembukaan rekening.",
+      "Menyiapkan dokumen yang diperlukan.",
+      "Memenuhi setoran awal minimum Rp 50.000,-",
+      "Berlaku ketentuan saldo mengendap minimum sebesar Rp 25.000,-",
+      "Dikenakan biaya administrasi bulanan sebesar Rp 5.000,-"
+    ],
+  
+    "individual_customer_type_title": "Jenis Nasabah Perorangan",
+    "individual_customer_documents": [
+      "Kartu identitas (KTP-el untuk WNI / Paspor untuk WNA)",
+      "NPWP*, untuk WNI.",
+      "Kartu Izin Tinggal (KITAS/KITAP), untuk WNA yang menetap di Indonesia.",
+      "Dokumen lainnya (khusus untuk WNA yang tidak menetap di Indonesia) sesuai dengan pedoman APU, PPT, dan PPPSPM."
+    ],
+  
+    "company_customer_type_title": "Jenis Nasabah PT",
+    "company_customer_documents": [
+      "Kartu Identitas dan NPWP* seluruh Pengurus.",
+      "Kartu Identitas dan NPWP* seluruh Pemegang Saham.",
+      "NPWP* Badan Usaha",
+      "Akta Pendirian",
+      "Akta Perubahan (jika ada)",
+      "Akta yang memuat susunan pengurus yang masih berlaku.",
+      "Surat pengesahan, surat persetujuan, dan/atau penerimaan pemberitahuan dari Menteri Hukum dan HAM.",
+      "Nomor Induk Berusaha (NIB).",
+      "Dokumen perizinan lainnya*"
+    ]
   }
 }

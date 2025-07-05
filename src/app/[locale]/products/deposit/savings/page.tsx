@@ -1,13 +1,16 @@
 "use client";
 
 import Banner from "@/components/Banner";
-import { useTranslations } from "next-intl";
+import { Divide } from "lucide-react";
+import { useTranslations, useMessages } from "next-intl";
 import { useState } from "react";
 
 
 export default function Savings() {
   const [activeTab, setActiveTab] = useState(0);
   const t =  useTranslations("Global");
+
+  const messages = useMessages();
   
   const tabs = [
     t("product_info_title"),
@@ -29,9 +32,55 @@ export default function Savings() {
           </div>
         );
       case 1:
-        return <p>Alasan memilih Tabungan Pintar akan ditampilkan di sini.</p>;
+        return (
+          <div className="space-y-7">
+            <div className="flex items-center justify-start gap-4 md:gap-10">
+              <img src="/icons/shield.png" className="w-24 h-24" />
+              <p className="text-lg font-bold">{t("benefit_insured")}</p>
+            </div>
+
+            <div className="flex items-center justify-start gap-4 md:gap-10">
+              <img src="/icons/growth.png" className="w-24 h-24" />
+              <p className="text-lg font-bold">{t("benefit_interest")}</p>
+            </div>
+
+            <div className="flex items-center justify-start gap-4 md:gap-10">
+              <img src="/icons/money.png" className="w-24 h-24" />
+              <p className="text-lg font-bold">{t("benefit_admin_fee")}</p>
+            </div>
+          </div>
+        );
       case 2:
-        return <p>Persyaratan pembukaan tabungan akan ditampilkan di sini.</p>;
+        return (
+          <div className="space-y-4">
+            <h2 className="mb-2 text-2xl font-bold text-gray-900 ">
+              {t("important_info_title")}
+            </h2>
+            <ul className="space-y-1 text-gray-500 list-disc list-inside ">
+              {messages.Global.individual_requirements.map((key: any) => (
+                <li key={key}>{key}</li>
+              ))}
+            </ul>
+
+            <h2 className="mb-2 text-2xl font-bold text-gray-900 ">
+              {t("individual_customer_type_title")}
+            </h2>
+            <ul className="space-y-1 text-gray-500 list-disc list-inside ">
+              {messages.Global.individual_customer_documents.map((key: any) => (
+                <li key={key}>{key}</li>
+              ))}
+            </ul>
+
+            <h2 className="mb-2 text-2xl font-bold text-gray-900 ">
+              {t("company_customer_type_title")}
+            </h2>
+            <ul className="space-y-1 text-gray-500 list-disc list-inside ">
+              {messages.Global.company_customer_documents.map((key: any) => (
+                <li key={key}>{key}</li>
+              ))}
+            </ul>
+          </div>
+        );
       default:
         return null;
     }

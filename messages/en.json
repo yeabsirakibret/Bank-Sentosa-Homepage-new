@@ -67,7 +67,41 @@
     "why_smart_saving_title": "Why Smart Savings?",
     "requirements_title": "Requirements",
     "secure_step_heading": "A Secure Step Toward",
-    "secure_step_subheading": "Your Financial Future"
-    
+    "secure_step_subheading": "Your Financial Future",
+    "benefit_insured": "Secure, as it is included in the deposit insurance program by the Deposit Insurance Corporation (LPS)",
+    "benefit_interest": "Highly competitive interest rates",
+    "benefit_admin_fee": "Very low monthly administrative fees",
+    "important_info_title": "Things to Know",
+
+    "individual_requirements": [
+      "This account is intended for individuals (Indonesian or foreign citizens) who have valid official identification.",
+      "Complete and agree to the account opening application form.",
+      "Provide and agree to the account registration form.",
+      "Prepare the required documents.",
+      "Meet the minimum initial deposit of Rp 50,000.",
+      "Maintain a minimum balance of Rp 25,000.",
+      "A monthly administration fee of Rp 5,000 applies."
+    ],
+  
+    "individual_customer_type_title": "Individual Customer Type",
+    "individual_customer_documents": [
+      "Identification card (e-KTP for Indonesian citizens / Passport for foreigners)",
+      "Taxpayer Identification Number (NPWP)*, for Indonesian citizens.",
+      "Residence Permit Card (KITAS/KITAP), for foreigners residing in Indonesia.",
+      "Other documents (for foreigners not residing in Indonesia) according to APU, PPT, and PPPSPM guidelines."
+    ],
+  
+    "company_customer_type_title": "Company Customer Type",
+    "company_customer_documents": [
+      "Identification card and NPWP* of all Directors.",
+      "Identification card and NPWP* of all Shareholders.",
+      "Company NPWP*",
+      "Deed of Establishment",
+      "Deed of Amendment (if any)",
+      "Deed showing the current composition of the Board of Directors.",
+      "Approval, acknowledgment, and/or notification letter from the Ministry of Law and Human Rights.",
+      "Business Identification Number (NIB).",
+      "Other business licenses*"
+    ]
   }
 }
