@@ -1,39 +1,30 @@
 "use client";
 
+import Banner from "@/components/Banner";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 
 export default function Savings() {
   const [activeTab, setActiveTab] = useState(0);
+  const t =  useTranslations("Global");
   
-  const tabs = ["Informasi Produk", "Mengapa Tabungan Pintar ?", "Persyaratan"];
+  const tabs = [
+    t("product_info_title"),
+    t("why_smart_saving_title"),
+    t("requirements_title"),
+  ];
 
   const renderContent = () => {
     switch (activeTab) {
       case 0:
         return (
           <div className="space-y-4">
-            <h2 className="text-lg font-semibold">Tabungan Pintar</h2>
-            <p>
-              Tabungan Pintar dari Bank Sentosa hadir sebagai solusi menabung
-              yang mudah, aman, dan sesuai kebutuhan kamu. Dengan proses
-              pembukaan rekening yang praktis, setoran awal yang terjangkau,
-              produk ini cocok untuk kamu yang ingin mulai kebiasaan menabung
-              yang lebih baik—baik pelajar, pekerja, maupun keluarga. Semua
-              transaksi juga bisa dilakukan dengan nyaman melalui layanan
-              digital atau langsung di kantor kami.
-            </p>
-            <p>
-              Tak hanya itu, Tabungan Pintar dilengkapi dengan suku bunga yang
-              kompetitif, sehingga dana kamu dapat bertumbuh seiring waktu.
-              Dengan perlindungan dari Lembaga Penjamin Simpanan (LPS), kamu
-              bisa menabung dengan tenang tanpa rasa khawatir. Lebih dari
-              sekadar menyimpan uang, Tabungan Pintar membantu kamu membangun
-              fondasi keuangan yang kuat untuk masa depan—karena menabung adalah
-              langkah awal menuju impian yang lebih besar.
-            </p>
+            <h2 className="text-lg font-bold">{t("smart_saving_title")}</h2>
+            <p>{t("smart_saving_paragraph_1")}</p>
+            <p>{t("smart_saving_paragraph_2")}</p>
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded mt-2">
-              Mulai Menabung
+              {t("smart_saving_cta")}
             </button>
           </div>
         );
@@ -49,19 +40,13 @@ export default function Savings() {
   return (
     <div className="w-full">
       {/* Banner */}
-      <div
-        className="bg-cover bg-center h-64 md:h-80 flex items-center justify-center text-white text-center px-4"
-        style={{
-          backgroundImage: "url('/banner_1.jpg')",
-        }}
-      >
-        <div>
-          <h1 className="text-2xl md:text-4xl font-semibold">
-            Langkah Aman untuk <br />
-            Masa Depan Finansial Anda
-          </h1>
-        </div>
-      </div>
+      <Banner
+        imageSrc="/banner_4.png"
+        altText="Main banner"
+        heading={t("secure_step_heading")}
+        subheading={t("secure_step_subheading")}
+        objectPosition="object-center" // optional default object-top
+      />
 
       {/* Tabs */}
       <div className="max-w-4xl mx-auto px-4 py-8">

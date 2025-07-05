@@ -58,6 +58,16 @@
     "financial_statements": "Financial Statements",
     "year": "Year",
     "previous": "Previous",
-    "next": "Next"
+    "next": "Next",
+    "smart_saving_title": "Smart Savings",
+    "smart_saving_paragraph_1": "Smart Savings from Bank Sentosa is here as an easy, secure, and flexible saving solution tailored to your needs. With a practical account opening process and affordable initial deposit, this product is perfect for those who want to build better saving habits—whether you're a student, worker, or part of a family. All transactions can be done comfortably via digital services or at our branch offices.",
+    "smart_saving_paragraph_2": "Not only that, Smart Savings offers a competitive interest rate, allowing your funds to grow over time. With protection from the Deposit Insurance Corporation (LPS), you can save with peace of mind. More than just storing money, Smart Savings helps you build a strong financial foundation for the future—because saving is the first step toward greater dreams.",
+    "smart_saving_cta": "Start Saving",
+    "product_info_title": "Product Information",
+    "why_smart_saving_title": "Why Smart Savings?",
+    "requirements_title": "Requirements",
+    "secure_step_heading": "A Secure Step Toward",
+    "secure_step_subheading": "Your Financial Future"
+    
   }
 }
