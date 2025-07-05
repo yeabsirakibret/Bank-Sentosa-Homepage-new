@@ -2,19 +2,35 @@
 
 import Banner from "@/components/Banner";
 import { useTranslations, useMessages } from "next-intl";
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 
 export default function WorkingCapital() {
   const [activeTab, setActiveTab] = useState(0);
-  const t =  useTranslations("Global");
-
+  const t = useTranslations("Global");
   const messages = useMessages();
-  
-  const tabs = [
-    t("product_info_title"),
-    t("requirements_title"),
-  ];
+
+  const tabs = [t("product_info_title"), t("requirements_title")];
+
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Handle URL parameter changes
+  useEffect(() => {
+    const tabParam = searchParams.get("currentTab");
+    if (tabParam) {
+      const tabIndex = parseInt(tabParam);
+      if (!isNaN(tabIndex) && tabIndex >= 0 && tabIndex < tabs.length) {
+        setActiveTab(tabIndex);
+      }
+    }
+  }, [searchParams, tabs.length]);
+
+  // Update URL when tab changes
+  const handleTabChange = (index: number) => {
+    setActiveTab(index);
+    router.replace(`?currentTab=${index}`, { scroll: false });
+  };
 
   const renderContent = () => {
     switch (activeTab) {
@@ -24,7 +40,7 @@ export default function WorkingCapital() {
             <h2 className="text-lg font-bold">{t("working_capital")}</h2>
             <p>{t("business_growth_paragraph_1")}</p>
             <p>{t("business_growth_paragraph_2")}</p>
-            
+
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded mt-2">
               {t("business_growth_cta")}
             </button>
@@ -78,7 +94,7 @@ export default function WorkingCapital() {
                   ? "border-b-2 border-blue-500 text-blue-600"
                   : "text-gray-500 hover:text-blue-500"
               }`}
-              onClick={() => setActiveTab(index)}
+              onClick={() => handleTabChange(index)}
             >
               {tab}
             </button>
