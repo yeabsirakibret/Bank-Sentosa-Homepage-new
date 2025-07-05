@@ -240,6 +240,62 @@
           "Dokumen perizinan lainnya*"
         ]
       }
+    ],
+
+    "business_growth_heading": "Solusi Tepat untuk",
+    "business_growth_subheading": "Pertumbuhan Bisnis Anda",
+    "business_growth_paragraph_1": "Dukung pertumbuhan usaha Anda dengan fasilitas Kredit Modal Kerja dari BPR Sentosa. Dirancang khusus untuk membantu pelaku usaha mikro, kecil, dan menengah dalam sektor perdagangan, industri, jasa, hingga konstruksi.",
+    "business_growth_paragraph_2": "Manfaatkan solusi pembiayaan kami sebagai langkah strategis menuju kesuksesan usaha Anda.",
+    "business_growth_cta": "Ajukan Sekarang",
+    
+    "working_capital_requirements_list":[
+      {
+        "title": "Perlu di Ketahui",
+        "content": [
+          "Karyawan/Wirausaha",
+          "Usia debitur minimal 21 tahun dan pada saat jatuh tempo pinjaman usia maksimal 65 tahun",
+          "Memiliki Sertifikat atas nama sendiri/keluarga",
+          "SLIK clear 2 tahun / maksimal kolektibilitas 2 lunas",
+          "Minimal usaha sudah berjalan 2 tahun"
+        ]
+      },
+      {
+        "title": "Persyaratan Dokumen Pribadi",
+        "content": [
+          "Fotokopi KTP",
+          "Fotokopi NPWP",
+          "Fotokopi Kartu Keluarga",
+          "Fotokopi KTP Pasangan",
+          "Fotokopi Akta Nikah",
+          "Fotokopi Akta Cerai/Mati",
+          "*dokumen pendukung usaha"
+        ]
+      },
+      {
+        "title": "Persyaratan Dokumen Badan Usaha",
+        "content": [
+          "Kartu Identitas dan NPWP* seluruh Pengurus",
+          "Kartu Identitas dan NPWP* seluruh Pemegang Saham",
+          "NPWP* Badan Usaha",
+          "Akta Pendirian",
+          "Akta Perubahan (jika ada)",
+          "Akta yang memuat susunan pengurus yang masih berlaku",
+          "Surat pengesahan, surat persetujuan, dan/atau penerimaan pemberitahuan dari Menteri Hukum dan HAM",
+          "Nomor Induk Berusaha (NIB)",
+          "Dokumen perizinan lainnya & pendukung usaha*"
+        ]
+      },
+      {
+        "title": "Persyaratan Dokumen Agunan & Finansial (Pribadi & Badan Usaha)",
+        "content": [
+          "Agunan Properti",
+          "Fotokopi Sertifikat",
+          "Fotokopi KTP & NPWP Pemilik Agunan",
+          "Fotokopi IMB",
+          "Fotokopi tagihan PBB terakhir",
+          "Fotokopi bukti bayar PBB terakhir"
+        ]
+      }
     ]
     
     

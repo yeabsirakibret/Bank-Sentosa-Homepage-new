@@ -239,6 +239,62 @@
           "Other relevant licenses*"
         ]
       }
+    ],
+
+    "business_growth_heading": "The Right Solution for",
+    "business_growth_subheading": "Your Business Growth",
+    "business_growth_paragraph_1": "Support the growth of your business with Working Capital Loan facilities from BPR Sentosa. Specifically designed to help micro, small, and medium enterprises across trade, industry, services, and construction sectors.",
+    "business_growth_paragraph_2": "Take advantage of our financing solutions as a strategic step toward your business success.",
+    "business_growth_cta": "Apply Now",
+
+    "working_capital_requirements_list":[
+      {
+        "title": "Things to Know",
+        "content": [
+          "Employee / Entrepreneur",
+          "Minimum age of borrower is 21 years, and maximum age at loan maturity is 65 years",
+          "Must have a property certificate in own/family name",
+          "SLIK must be clear for 2 years / maximum collectibility 2 fully paid",
+          "Business must have been operating for at least 2 years"
+        ]
+      },
+      {
+        "title": "Personal Document Requirements",
+        "content": [
+          "Copy of ID card (KTP)",
+          "Copy of Tax ID (NPWP)",
+          "Copy of Family Card",
+          "Copy of Spouse's ID card",
+          "Copy of Marriage Certificate",
+          "Copy of Divorce/Death Certificate",
+          "*Business supporting documents"
+        ]
+      },
+      {
+        "title": "Business Entity Document Requirements",
+        "content": [
+          "ID card and NPWP* of all Directors",
+          "ID card and NPWP* of all Shareholders",
+          "Company NPWP*",
+          "Deed of Establishment",
+          "Deed of Amendment (if any)",
+          "Deed listing current Board of Directors",
+          "Approval, legalization, and/or notification receipt from the Ministry of Law and Human Rights",
+          "Business Identification Number (NIB)",
+          "Other business licenses & supporting documents*"
+        ]
+      },
+      {
+        "title": "Collateral & Financial Document Requirements (Individual & Business)",
+        "content": [
+          "Property collateral",
+          "Copy of Property Certificate",
+          "Copy of ID & NPWP of the collateral owner",
+          "Copy of Building Permit (IMB)",
+          "Copy of latest Land and Building Tax (PBB) bill",
+          "Copy of latest PBB payment receipt"
+        ]
+      }
     ]
     
     
